@@ -1,0 +1,30 @@
+.cosmos-policies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    padding: 20px;
+
+    & > div {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        & > img {
+            height: 25px;
+            margin-right: 5px;
+        }
+
+        & > p {
+            white-space: nowrap;
+            text-align: left;
+            font-weight: 600;
+            font-size: 12px;
+            font-family: Nunito;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+    }
+}

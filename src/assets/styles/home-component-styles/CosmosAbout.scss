@@ -1,0 +1,123 @@
+@media(min-width: 0px) and (max-width: 991px) {
+    .aboutContainer {
+        display: flex;
+        position: relative;
+        height: 270px;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        filter: brightness(80%);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 40px;
+
+        & .aboutContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 25px;
+    
+            & > p:first-child {
+                white-space: nowrap;
+                text-align: left;
+                font-weight: 800;
+                font-size: 18px;
+                font-size: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                margin: 0 0 20px 0;
+            }
+        
+            & > p:nth-child(2) {
+                text-align: left;
+                font-weight: 600;
+                font-size: 14px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                margin: 0 0 20px 0;
+                z-index: 1;
+            }
+        }
+    
+        & > img {
+            display: none;
+        }
+    
+        & .aboutClip {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            background: rgba(255, 99, 71, 0.7);
+            clip-path: polygon(100% 40%, 100% 0%, 100% 100%, 40% 100%);
+            z-index: 0;
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 4096px) {
+    .aboutContainer {
+        display: flex;
+        position: relative;
+        height: 410px;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 1;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        & .aboutContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            padding: 100px;
+    
+            & > p:first-child {
+                white-space: nowrap;
+                text-align: left;
+                font-weight: 800;
+                font-size: 24px;
+                font-size: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        
+            & > p:nth-child(2) {
+                text-align: left;
+                font-weight: 600;
+                font-size: 14px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+            }
+        }
+    
+        & > img {
+            position: absolute;
+            left: 75%;
+            margin-left: -230px;
+            top: -25px;
+            height: 460px;
+            width: 460px;
+            z-index: 1;
+        }
+    
+        & .aboutClip {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            background: rgba(255, 99, 71, 0.7);
+            clip-path: polygon(40% 0, 100% 0%, 100% 100%, 0% 100%);
+            z-index: 0;
+        }
+    }
+}

@@ -1,0 +1,262 @@
+$border-color: 1px solid black;
+$font-family: Nunito;
+
+@media(min-width: 0px) and (max-width: 991px) {
+    .headerContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #263238;
+        height: 60px;
+        padding-top: 10px;
+        position: relative;
+
+        & .headerLogo {
+            display: flex;
+            & > img:first-child {
+                position: relative;
+                height: 20px;
+                left: 10px;
+                cursor: pointer;
+            }
+
+            & > p {
+                position: relative;
+                top: -8px;
+                left: 18px;
+                text-align: left;
+                font-weight: 500;
+                font-size: 12px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                margin-right: 20px;
+                white-space: nowrap;
+                cursor: pointer;
+            }
+
+            & > img:last-child {
+                height: 20px;
+                position: absolute;
+                left: 50%;
+                top: 25px;
+                margin-left: -50px;
+                cursor: pointer;
+            }
+        }
+
+        & .headerSearchBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EEEEEE;
+            height: 60px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 60px;
+            padding: 0 10px;
+
+            & > img:first-child {
+                height: 16px;
+                position: absolute;
+                left: 25px;
+            }
+    
+            & > input[type="text"]:last-child {
+                background: #FFFFFF;
+                border-radius: 23px;
+                outline: 0;
+                border: none;
+                width: 100%;
+                padding: 5px;
+                padding-left: 35px;
+            }
+    
+            & > input[placeholder] {
+                text-align: left;
+                font-weight: 500;
+                font-size: 12px;
+                font-family: $font-family;
+                letter-spacing: 0px;
+                color: #757575;
+                opacity: 1;
+            }
+        }
+
+        & .headerIcons {
+            display: none;
+        }
+
+        & .headerMobileIcons {
+            position: relative;
+            right: 10px;
+            top: -4px;
+
+            & > div {
+                cursor: pointer;
+
+                & > img:first-of-type {
+                    height: 24px;
+                }
+            }
+        }
+
+        .absoluteNavigation {
+            display: none;
+            position: absolute;
+            top: 0;
+        }
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .headerWrapper {
+        position: relative;
+
+        .absoluteNavigation {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 4096px) {
+    .headerContainer {
+        display: grid;
+        grid-template-columns: 3.5fr 5fr 3.5fr;
+        align-items: center;
+        background-color: #EEEEEE;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+    
+        & > .headerLogo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #263238;
+            height: 60px;
+            clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+    
+            & > img:first-child {
+                height: 24px;
+                margin: 0 10px;
+                cursor: pointer;
+            }
+    
+            & > p {
+                text-align: left;
+                font-weight: 500;
+                font-size: 12px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF;
+                opacity: 1;
+                margin-right: 20px;
+                white-space: nowrap;
+                cursor: pointer;
+            }
+        
+            & > img:last-child {
+                height: 25px;
+                cursor: pointer;
+            }
+        }
+    
+        .headerSearchBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EEEEEE;
+            height: 60px;
+    
+            & > img:first-child {
+                height: 16px;
+                position: relative;
+                left: 25px;
+            }
+    
+            & > input[type="text"]:last-child {
+                background: #FFFFFF;
+                border-radius: 23px;
+                outline: 0;
+                border: none;
+                width: 350px;
+                padding: 5px;
+                padding-left: 35px;
+            }
+    
+            & > input[placeholder] {
+                text-align: left;
+                font-weight: 500;
+                font-size: 12px;
+                font-family: $font-family;
+                letter-spacing: 0px;
+                color: #757575;
+                opacity: 1;
+            }
+        }
+    
+        .headerIcons {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background-color: #EEEEEE;
+            height: 60px;
+    
+            & > div {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 25px;
+                cursor: pointer;
+    
+                & > img {
+                    height: 16px;
+                }
+    
+                & > p {
+                    text-align: left;
+                    font-weight: 600;
+                    font-size: 10px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #263238;
+                    opacity: 1;
+                    margin: 4px 0 0 0;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .headerMobileIcons {
+            display: none;
+        }
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .headerWrapper {
+        position: relative;
+    
+        .absoluteNavigation {
+            display: none;
+            position: relative;
+            top: 0;
+        }
+    }
+}

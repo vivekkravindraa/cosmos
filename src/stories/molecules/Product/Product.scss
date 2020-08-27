@@ -1,0 +1,432 @@
+.cosmos-product {
+    width: 140px;
+
+    & .productImages {
+        & .productImage {
+            background: #FFFFFF;
+
+            & > img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    & .productInfo {
+        padding: 5px;
+        background: #FFFFFF;
+
+        & .productPrices {
+            display: flex;
+            align-items: baseline;
+
+            & .productPrice {
+                margin: 0 6px 6px 0;
+
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    background-color: #EB4B11;
+                    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+                    width: 80px;
+                
+                    & > p:first-child {
+                        text-align: left;
+                        font-weight: 500;
+                        font-size: 10px;
+                        font-family: Montserrat;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 2px 4px 0 0;
+                    }
+                
+                    & > p:last-child {
+                        text-align: left;
+                        font-weight: 600;
+                        font-size: 14px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+
+            & .productMarketPrice {
+                & > div > p {
+                    white-space: nowrap;
+                    text-align: left;
+                    font-weight: 400;
+                    font-size: 8px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #222222;
+                    opacity: 1;
+                    margin: 0;
+                }    
+            }
+        }
+
+        & .productTitle {
+            & > div > p {
+                text-align: left;
+                font-weight: 600;
+                font-size: 10px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #222222;
+                opacity: 1;
+                margin: 0 0 6px 0;
+            }
+        }
+
+        & .productRatingAndVariants {
+            display: flex;
+            justify-content: space-between;
+
+            & .productRating {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 42px;
+                    background: #F5F5F5;
+
+                    & > p {
+                        text-align: left;
+                        font-weight: 400;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #424242;
+                        opacity: 1;
+                        margin: 0 4px 0 0;
+                    }
+
+                    & > img {
+                        height: 8px;
+                    }
+                }
+            }
+
+            & .productVariants {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 82px;
+                    background: #F5F5F5;
+                
+                    & > p {
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #424242;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.--primary {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+
+    & .productImages {
+        & .productImage {
+            background-color: #222222;
+
+            & > img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    & .productInfo {
+        padding: 5px;
+        background-color: #222222;
+
+        & .productPrices {
+            display: flex;
+            align-items: baseline;
+
+            & .productPrice {
+                margin: 0 6px 6px 0;
+
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    background-color: #EB4B11;
+                    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+                    width: 80px;
+                
+                    & > p:first-child {
+                        text-align: left;
+                        font-weight: 500;
+                        font-size: 10px;
+                        font-family: Montserrat;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 2px 4px 0 0;
+                    }
+                
+                    & > p:last-child {
+                        text-align: left;
+                        font-weight: 600;
+                        font-size: 14px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+
+            & .productMarketPrice {
+                & > div > p {
+                    white-space: nowrap;
+                    text-align: left;
+                    font-weight: 400;
+                    font-size: 8px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                }
+            }
+        }
+
+        & .productTitle {
+            & > div > p {
+                text-align: left;
+                font-weight: 600;
+                font-size: 10px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #FFFFFF !important;
+                opacity: 1;
+                margin: 0 0 6px 0;
+            }
+        }
+
+        & .productRatingAndVariants {
+            display: flex;
+            justify-content: space-between;
+
+            & .productRating {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 42px;
+                    background: #424242;
+
+                    & > p {
+                        text-align: left;
+                        font-weight: 400;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #F5F5F5;
+                        opacity: 1;
+                        margin: 0 4px 0 0;
+                    }
+
+                    & > img {
+                        height: 8px;
+                    }
+                }
+            }
+
+            & .productVariants {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 82px;
+                    background: #424242;
+                
+                    & > p {
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #F5F5F5;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.--secondary {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+
+    & .productImages {
+        position: relative;
+
+        & .productImage {
+            background: #FFFFFF;
+
+            & > img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        & .relatedProductImages {
+            display: flex;
+            justify-content: space-around;
+            position: absolute;
+            bottom: 4px;
+            width: 100%;
+        }
+    }
+
+    & .productInfo {
+        padding: 5px;
+        background: #FFFFFF;
+
+        & .productPrices {
+            display: flex;
+            align-items: baseline;
+
+            & .productPrice {
+                margin: 0 6px 6px 0;
+
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    background-color: #EB4B11;
+                    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+                    width: 80px;
+                
+                    & > p:first-child {
+                        text-align: left;
+                        font-weight: 500;
+                        font-size: 10px;
+                        font-family: Montserrat;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 2px 4px 0 0;
+                    }
+                
+                    & > p:last-child {
+                        text-align: left;
+                        font-weight: 600;
+                        font-size: 14px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #FFFFFF;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+
+            & .productMarketPrice {
+                & > p {
+                    text-align: left;
+                    font-weight: 400;
+                    font-size: 10px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #222222;
+                    opacity: 1;
+                    margin: 0;
+                }    
+            }
+        }
+
+        & .productTitle {
+            & > p {
+                text-align: left;
+                font-weight: 600;
+                font-size: 14px;
+                font-family: Nunito;
+                letter-spacing: 0px;
+                color: #222222;
+                opacity: 1;
+                margin: 0 0 6px 0;
+            }
+        }
+
+        & .productRatingAndVariants {
+            display: flex;
+            justify-content: space-between;
+
+            & .productRating {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 42px;
+                    background: #F5F5F5;
+
+                    & > p {
+                        text-align: left;
+                        font-weight: 400;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #424242;
+                        opacity: 1;
+                        margin: 0 4px 0 0;
+                    }
+
+                    & > img {
+                        height: 8px;
+                    }
+                }
+            }
+
+            & .productVariants {
+                & > div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 16px;
+                    width: 82px;
+                    background: #F5F5F5;
+                
+                    & > p {
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 12px;
+                        font-family: Nunito;
+                        letter-spacing: 0px;
+                        color: #424242;
+                        opacity: 1;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,414 @@
+$font-family: Nunito;
+
+@media(min-width: 0px) and (max-width: 991px) {
+    .sportsCategoriesWrapper {
+        position: relative;
+
+        & .sportsCategoriesHeader:hover::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 16%;
+            border-top: 4px solid #EB4B11;
+        }
+
+        & .sportsCategoriesHeader {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #D3D3D3;
+            width: 40%;
+            margin: 0 auto;
+
+            & > p:first-child {
+                text-align: left;
+                font-weight: 600;
+                font-size: 12px;
+                font-family: Montserrat;
+                letter-spacing: 0px;
+                color: #424242;
+                margin: 10px 0;
+            }
+    
+            & > p:nth-child(2) {
+                text-align: left;
+                font-weight: 600;
+                font-size: 18px;
+                font-family: Montserrat;
+                letter-spacing: 0px;
+                color: #424242;
+                margin: 0;
+            }    
+        }
+    }
+
+    .sportsCategoriesHeader:hover::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 16%;
+        border-top: 4px solid #EB4B11;
+    }
+
+    .sportsCategoriesContainer {
+        display: grid;
+        grid-template-rows: 1fr 3fr 3fr 3fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin: 40px 10px;
+    
+        & .category:first-child {
+            position: relative;
+    
+            & .categoryImage {
+                height: 100%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 40%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 24px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:nth-child(2) {
+            position: relative;
+    
+            & .categoryImage {
+                height: 120px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:nth-child(3) {
+            position: relative;
+    
+            & .categoryImage {
+                height: 120px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:last-child {
+            position: relative;
+    
+            & .categoryImage {
+                height: 120px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    }
+    
+    .sportsCategoriesContainer {
+        & > div:first-child {
+            grid-row: 1 / span 3;
+    
+            & .categoryImage {
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) and (max-width: 4096px) {
+    .sportsCategoriesWrapper {
+        position: relative;
+
+        & .sportsCategoriesHeader:hover::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 8%;
+            border-top: 4px solid #EB4B11;
+        }
+
+        & .sportsCategoriesHeader {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #D3D3D3;
+            width: 20%;
+            margin: 20px auto 10px auto;
+
+            & > p:first-child {
+                text-align: left;
+                font-weight: 600;
+                font-size: 14px;
+                font-family: Montserrat;
+                letter-spacing: 0px;
+                color: #424242;
+                margin: 10px 0;
+            }
+    
+            & > p:nth-child(2) {
+                text-align: left;
+                font-weight: 600;
+                font-size: 24px;
+                font-family: Montserrat;
+                letter-spacing: 0px;
+                color: #424242;
+                margin: 0;
+            }    
+        }   
+    }
+
+    .sportsCategoriesContainer {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        margin: 40px 40px 80px 40px;
+    
+        & .category:first-child {
+            position: relative;
+    
+            & .categoryImage {
+                height: 100%;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 40%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 28px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:nth-child(2) {
+            position: relative;
+    
+            & .categoryImage {
+                height: 140px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 28px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:nth-child(3) {
+            position: relative;
+    
+            & .categoryImage {
+                height: 140px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 28px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    
+        & .category:last-child {
+            position: relative;
+    
+            & .categoryImage {
+                height: 140px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+    
+            & .categoryName {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                top: 0;
+    
+                & > p {
+                    text-align: right;
+                    font-weight: 600;
+                    font-size: 28px;
+                    font-family: $font-family;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    opacity: 1;
+                    margin: 0;
+                    padding-right: 10px;
+                    border-bottom: 4px solid transparent;
+                }
+            }
+    
+            & .categoryDescription {
+                display: none;
+            }
+        }
+    }
+    
+    .sportsCategoriesContainer {
+        & > div:first-child {
+            grid-row: 1 / span 3;
+    
+            & .categoryImage {
+                height: 100%;
+            }
+        }
+    }
+}

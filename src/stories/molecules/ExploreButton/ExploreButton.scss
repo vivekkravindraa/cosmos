@@ -1,0 +1,10 @@
+.cosmos-explore-button {
+    display: inline-flex;
+    align-items: center;
+
+    & > img {
+        height: 10px;
+        position: relative;
+        left: -25px;
+    }
+}

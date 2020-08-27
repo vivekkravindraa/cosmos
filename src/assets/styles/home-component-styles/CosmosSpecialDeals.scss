@@ -1,0 +1,270 @@
+@media(min-width: 0px) and (max-width: 991px) {
+    .swiper-wrapper,
+    .specialDealsWrapper {
+        position: relative;
+
+        & > p:first-of-type {
+            position: relative;
+            left: 0;
+            top: -8px;
+            text-align: left;
+            font-size: 600;
+            font-size: 22px;
+            font-family: Nunito;
+            letter-spacing: 0px;
+            color: #222222;
+            opacity: 1;
+            margin: 10px 0 0 0;
+            padding: 10px 0 0 10px;
+        }
+
+        & > p:first-of-type::after {
+            content: "";
+            display: block;
+            width: 36%;
+            position: absolute;
+            top: 44px;
+            border-bottom: 1px solid #424242;
+        }
+
+        & > p:first-of-type:hover::before {
+            content: "";
+            display: block;
+            width: 20%;
+            position: absolute;
+            top: 45px;
+            left: 40px;
+            border-bottom: 2px solid #EB4B11;
+        }
+
+        & .specialDealsTopArrow {
+            display: none;
+            position: absolute;
+            left: 50%;
+            margin-left: -32px;
+            top: -16px;
+
+            & > img {
+                height: 32px;
+            }
+        }
+
+        & .specialDealsBottomArrow {
+            display: none;
+            position: absolute;
+            left: 50%;
+            margin-left: -32px;
+            bottom: -20px;
+
+            & > img {
+                height: 32px;
+            }
+        }
+    }
+
+    .specialDealsContainer {
+        display: grid;
+        grid-auto-flow: column;
+        column-gap: 20px;
+        margin: 10px;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        & > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #424242;
+            padding: 10px;
+            border-radius: 10px;
+
+            & > div:first-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #BDBDBD;
+                border-radius: 4px;
+                height: 80px;
+                width: 80px;
+
+                & > img {
+                    height: 60px;
+                }
+            }
+
+            & > div:last-child {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background: #424242;
+                border-radius: 4px;
+                padding: 10px;
+                width: 150px;
+
+                & > p:first-child {
+                    text-align: left;
+                    font-weight: 600;
+                    font-size: 16px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    margin: 0 0 4px 0;
+                }
+        
+                & > p:last-child {
+                    text-align: left;
+                    font-weight: 600;
+                    font-size: 12px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    margin: 4px 0 0 0;
+                }
+            }
+        }
+    }
+
+    .specialDealsContainer::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 4096px) {
+    .swiper-wrapper,
+    .specialDealsWrapper {
+        position: relative;
+
+        & > p:first-of-type {
+            position: relative;
+            left: 10px;
+            top: -8px;
+            text-align: left;
+            font-size: 600;
+            font-size: 22px;
+            font-family: Nunito;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+            margin: 8px 0;
+        }
+
+        & > p:first-of-type::after {
+            content: "";
+            display: block;
+            width: 28%;
+            position: absolute;
+            top: 32px;
+            border-bottom: 1px solid #DEDEDE;
+        }
+
+        & > p:first-of-type:hover::before {
+            content: "";
+            display: block;
+            width: 15%;
+            position: absolute;
+            top: 33px;
+            left: 30px;
+            border-bottom: 2px solid #EB4B11;
+        }
+
+        & .specialDealsTopArrow {
+            position: absolute;
+            left: 50%;
+            margin-left: -32px;
+            top: 24px;
+
+            & > img {
+                height: 32px;
+            }
+        }
+
+        & .specialDealsBottomArrow {
+            position: absolute;
+            left: 50%;
+            margin-left: -32px;
+            bottom: -20px;
+
+            & > img {
+                height: 32px;
+            }
+        }
+    }
+
+    .specialDealsContainer {
+        display: flex;
+        flex-direction: column;
+        background: #424242;
+        margin: 0 40px 0 0;
+        padding: 40px 0;
+        border-top: 1px solid #D3D3D3;
+        border-bottom: 1px solid #D3D3D3;
+        height: 450px;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        & > div {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            grid-gap: 25px;
+            padding: 25px;
+            border-bottom: 1px solid #D3D3D3;
+
+            & > div:first-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #BDBDBD;
+                border-radius: 4px;
+                height: 80px;
+                width: 80px;
+
+                & > img {
+                    height: 100px;
+                }
+            }
+
+            & > div:last-child {
+                display: flex;
+                flex-direction: column;
+                background: #424242;
+                border-radius: 4px;
+
+                & > p:first-child {
+                    text-align: left;
+                    font-weight: 600;
+                    font-size: 22px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    margin: 0 0 4px 0;
+                }
+        
+                & > p:last-child {
+                    text-align: left;
+                    font-weight: 600;
+                    font-size: 16px;
+                    font-family: Nunito;
+                    letter-spacing: 0px;
+                    color: #FFFFFF;
+                    margin: 4px 0 0 0;
+                }
+            }
+        }
+
+        & > div:first-child {
+            padding-top: 0;
+        }
+
+        & > div:last-child {
+            padding-bottom: 0;
+            border-bottom: 0;
+        }
+    }
+
+    .specialDealsContainer::-webkit-scrollbar {
+        display: none;
+    }
+}

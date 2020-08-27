@@ -1,0 +1,19 @@
+.cosmos-input {
+    background: #EEEEEE;
+    border-radius: 23px;
+    outline: 0;
+    border: none;
+    width: 350px;
+    padding: 5px;
+    padding-left: 35px;
+}
+
+.cosmos-input[placeholder] {
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Nunito;
+    letter-spacing: 0px;
+    color: #757575;
+    opacity: 1;
+}

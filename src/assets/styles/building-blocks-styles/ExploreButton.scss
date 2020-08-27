@@ -1,0 +1,98 @@
+.cosmos-explore-button {
+    display: inline-flex;
+    align-items: center;
+
+    & > button {
+        border: 2px solid #FFFFFF;
+        border-radius: 22px;
+        opacity: 1;
+        background: #000000;
+        padding: 4px 30px 4px 20px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: Nunito;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    & > img {
+        height: 10px;
+        position: relative;
+        left: -25px;
+    }
+}
+
+.cosmos-explore-button--primary {
+    display: inline-flex;
+    align-items: center;
+
+    & > button {
+        border: 2px solid #FFFFFF;
+        border-radius: 8px;
+        opacity: 1;
+        background: transparent;
+        padding: 4px 30px 4px 20px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: Nunito;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    & > img {
+        height: 10px;
+        position: relative;
+        left: -25px;
+    }
+}
+
+.cosmos-explore-button--secondary {
+    display: inline-flex;
+    align-items: center;
+
+    & > button {
+        border: 2px solid #FFFFFF;
+        border-radius: 16px;
+        opacity: 1;
+        background: transparent;
+        padding: 4px 30px 4px 20px;
+        text-align: left;
+        font-weight: 400;
+        font-size: 12px;
+        font-family: Nunito;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    & > img {
+        height: 10px;
+        position: relative;
+        left: -25px;
+    }
+}
+
+.cosmos-explore-button--small {
+    & > button {
+        font-size: 12px;
+        padding: 4px 30px 4px 20px;
+    }
+}
+
+.cosmos-explore-button--medium {
+    & > button {
+        font-size: 14px;
+        padding: 6px 40px 6px 30px;
+    }
+}
+
+.cosmos-explore-button--large {
+    & > button {
+        font-size: 16px;
+        padding: 8px 50px 8px 40px;
+    }
+}
