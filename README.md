@@ -1,4 +1,6 @@
-[Cosmos Sports Accessories Site](https://cosmos-sports.netlify.com)
+[Cosmos Sports Accessories Site - On Netlify](https://cosmos-sports.netlify.com)
+
+[Cosmos Sports Accessories Site - On GitHub-Pages](https://vivekkravindraa.github.io/cosmos)
 
 [Cosmos - Storybook Components](https://5fe60b787e181f0021706e40-atvovxmevg.chromatic.com)
 
